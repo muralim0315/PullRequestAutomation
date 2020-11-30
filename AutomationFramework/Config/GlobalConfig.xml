@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AutoFramework>
+  <RunSettings>
+    <AUT>https://github.com/</AUT>
+    <!-- Possible flag Chrome,Firefox, IE-->
+    <Browser>Chrome</Browser>
+    <!-- Possible flag Smoke, Regression, Unit  -->
+    <TestType>SmokeTest</TestType>
+    <!-- Possible Flag Y, N -->
+    <IsLog>Y</IsLog>	  
+     <!--For demo purpose set the Path in App directory.-->
+    <LogPath>*************</LogPath>
+	  <!--For demo purpose set the Path in App directory.-->
+	  <ScreenshotPath>*************</ScreenshotPath>
+    <BuildName>DemoBuild</BuildName>
+    <UserName>********</UserName>
+    <!-- Possible flag Windows, Web, WPF  -->
+    <Technology>Selenium</Technology>
+    <ApplicationDb>*************</ApplicationDb>
+  </RunSettings>
+</AutoFramework>
