@@ -72,6 +72,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Drivers\" />
     <Folder Include="Storage\Logs\" />
     <Folder Include="Storage\Screenshots\" />
   </ItemGroup>
@@ -81,9 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\GlobalConfig.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Drivers\geckodriver.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

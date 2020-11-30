@@ -35,18 +35,18 @@ namespace AutomationFramework.Base
                     LogHelpers.Write("Chrome driver instantiated");
                     break;
 
-                case BrowserType.FireFox:
-                    string geckoDriverpath = AppDomain.CurrentDomain.BaseDirectory + @"Drivers";
-                    FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(geckoDriverpath);
-                    DriverContext.Driver = new FirefoxDriver(service);
-                    DriverContext.Browser = new Browser();
-                    LogHelpers.Write("Fire fox driver instantiated");
-                    break;
-                case BrowserType.IE:
-                    DriverContext.Driver = new InternetExplorerDriver();
-                    DriverContext.Browser = new Browser();
-                    LogHelpers.Write("Fire fox driver instantiated");
-                    break;
+                //case BrowserType.FireFox:
+                //    string geckoDriverpath = AppDomain.CurrentDomain.BaseDirectory + @"Drivers";
+                //    FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(geckoDriverpath);
+                //    DriverContext.Driver = new FirefoxDriver(service);
+                //    DriverContext.Browser = new Browser();
+                //    LogHelpers.Write("Fire fox driver instantiated");
+                //    break;
+                //case BrowserType.IE:
+                //    DriverContext.Driver = new InternetExplorerDriver();
+                //    DriverContext.Browser = new Browser();
+                //    LogHelpers.Write("Fire fox driver instantiated");
+                //    break;
             }
 
         }
